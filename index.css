@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    background-image: url("./public/img/fondo.jpg");
+}
+
+.body-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+.data-input{
+    background: #193972ed;
+    width: 358px;
+    height: 304px;
+    margin: auto;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: inset -1px -6px 8px 3px #4968a1;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    clip-path: circle(53% at 50% 58%);
+    animation: caerLogin 1s linear;
+}
+
+@keyframes caerLogin {
+    0%{
+        left: -50%;
+        transform: rotateZ(-180deg);
+    }
+    90%{
+        transform: rotateZ(20deg);
+    }
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    background: content-box;
+}
+
+.title-text-login{
+    color: white;
+    font-size: 36px;
+    font-family: math;
+    background: content-box;
+}
+
+.label-style{
+    font-size: larger;
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: 900;
+    background: content-box;
+}
+
+.input-style{
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    background: white;
+}
+
+.btn-login{
+    background: linear-gradient(#1f6eff,#072f78);
+    padding: 10px;
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+    border-radius: 10px;
+    border: dashed;
+    border-color: #7ba0e5;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background: linear-gradient(#4681f0,#2b416b);
+    color: white;
+    border-radius: 10px;
+    border: dashed;
+    border-color: #7ba0e5;
+}
