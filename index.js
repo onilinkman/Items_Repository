@@ -95,5 +95,5 @@ function obtenerClientes(){
 
 
 function Login(){
-    window.location.href="src/pages/AddItems/addItem.html"
+    window.location.href="src/pages/menu/menu.html"
 }
